@@ -1,5 +1,5 @@
 
-# Stuff we really need
+# Must have features
 
 1. Easy way to deal with carton quantities.
 
