@@ -7,6 +7,8 @@
   
   - Customer usually orders by carton (2x Item C) but occasionally will order by exact quantity needed. (10,000 Item C)
   
-  - Print orders rarely fill an even number of cartons.  We usually end up with one smaller "short" carton. 
+  - Print orders rarely fill an even number of cartons.  We usually end up with one smaller "short" cartons.
   
+  - Inventory quantities must not be negative, or at the very least have the "Sorry, this item is out of stock" replace the add to cart button on negative quantities.  D6 site only disables the add to cart button when quantity is exactly 0.
+
 2. Inventory transactions.
