@@ -15,4 +15,4 @@
 
   - For obvious reasons, we need a way to record all transactions to products in inventory.  With current D6 site, there has been no easy way to record transactions that ADD to inventory.  
   
-  - Occasionally, products in inventory become obsolete and a new version is printed
+  - Occasionally, products in inventory become obsolete and a new version is printed before the stock is depleted. This results in a "kill order" where the old product is destroyed and recycled.
