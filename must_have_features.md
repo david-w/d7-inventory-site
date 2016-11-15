@@ -17,4 +17,4 @@
   
   - Occasionally, products in inventory become obsolete and a new version is printed before the stock is depleted. This results in a "kill order" where the old product is destroyed and recycled. We need an easy way to track this.
   
-  - Rarely, a product in inventory will be revised and a new version printed but the customer requests that both versions of the item are kept in inventory.  I'm not exactly sure why this happens, but could possibly be products that they ship internationally vs. domestic??  Whatever the case, we need a way to flag these items to make sure the customer knows there are 2 versions (besides having seperate nodes).
+  - Rarely, a product in inventory will be revised and a new version printed but the customer requests that both versions of the item are kept in inventory.  I'm not exactly sure why this happens, but could possibly be products that they ship internationally vs. domestic??  Whatever the case, we need a way to flag these items to make sure the customer knows there are 2 versions (besides having seperate nodes).  Also, this should be noted on the pick order so we are sure to pull the correct item.
