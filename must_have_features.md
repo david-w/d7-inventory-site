@@ -11,7 +11,7 @@
   
   - Inventory quantities must not be negative, or at the very least have the "Sorry, this item is out of stock" replace the add to cart button on negative quantities.  Current D6 site only disables the add to cart button when quantity is exactly 0.
 
-  - Stock threshold notifications are wacked. For example, some PI's are small so there are a large number per box. If the qty for the entire printing is 10,000 and we get 5,000 per carton, then the threshold notification is worthless really. Originally the plan was to 
+  - Stock threshold notifications are wacked. For example, some PI's are small so there are a large number per box. If the qty for the entire printing is 10,000 and we get 5,000 per carton, then the threshold notification is worthless really. Originally the plan was to have an email sent when the stock reached 20% of the printed amount. Ordering carton quanties only really makes this difficult.
 
 2. Inventory transactions.
 
