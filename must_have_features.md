@@ -21,4 +21,10 @@
   
   - Rarely, a product in inventory will be revised and a new version printed but the customer requests that both versions of the item are kept in inventory.  I'm not exactly sure why this happens, but could possibly be products that they ship internationally vs. domestic??  Whatever the case, we need a way to flag these items to make sure the customer knows there are 2 versions (besides having seperate nodes).  Also, this should be noted on the pick order so we are sure to pull the correct item.
 
+3. Locations
 
+  - We have multiple locations where we store inventory.  We need a simple way to track locations that show on a pick order.  This can be done in D6 and D7 currently.  I'm just putting this here as a reminder.
+  
+  - Occasionally when a job gets reprinted and there is still some product left in inventory, space limitations dictate that the new printing is stored in a seperate area.  We need a way to track more than one location per SKU.
+  
+  
