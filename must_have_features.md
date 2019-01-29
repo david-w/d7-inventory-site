@@ -26,7 +26,6 @@
   - We have multiple locations where we store inventory.  We need a simple way to track locations that show on a pick order.  This can be done in D6 and D7 currently.  I'm just putting this here as a reminder.
   
   - Occasionally when a job gets reprinted and there is still some product left in inventory, space limitations dictate that the new printing is stored in a seperate area.  We need a way to track more than one location per SKU.
-  
-  - Since we don't have unlimited storage space, there needs to be a way to list multiple locations for a single SKU.  Sometimes jobs get reprinted before the SKU is depleted and there isn't enough room to store both printings together. 
+   
   
   
