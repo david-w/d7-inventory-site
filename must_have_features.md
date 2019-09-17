@@ -9,7 +9,7 @@
   
   - Print orders rarely fill an exact number of cartons.  We usually end up with one smaller "short" carton on each SKU.  These short cartons can have a different quantity from one printing to the next.  
   
-  - Inventory quantities must not be negative, or at the very least have the "Sorry, this item is out of stock" replace the add to cart button on negative quantities.  Current D6 site only disables the add to cart button when quantity is exactly 0.
+  - Inventory quantities must not be negative, or at the very least have the "Sorry, this item is out of stock" replace the add to cart button on negative quantities.  Current D6 site only disables the add to cart button when quantity is exactly 0.  For example, since the customer can manually generate a pull order for any quantity of any item that doesn't have a out of stock button, they can order more than we have in stock which results in a negative quantity. If somehow we miss that when we fulfill the order, or forget to change the quantity back to zero, Potentially the customer can order the same item again even though it shows a negative quantity in stock.
 
   - Stock threshold notifications are wacked. For example, some PI's are small so there are a large number per box. If the qty for the entire printing is 10,000 and we get 5,000 per carton, then the threshold notification is worthless really. Originally the plan was to have an email sent when the stock reached 20% of the printed amount. Ordering carton quanties only really makes this difficult.
 
