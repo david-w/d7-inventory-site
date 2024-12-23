@@ -7,3 +7,6 @@ This will be a long-term project because many of the modules I used in D6 are si
 
 ### UPDATE February, 2020:
 Considering the amount of time that has passed, I feel the best path going forward is to create a new site in Backdrop and import the data from the D6 site. (which is still in operation)  I will research Drupal 6 database import in Backdrop when I have some time.
+
+### UPDATE December, 2024:
+I made a job move in 2021 so this project is dead.  From what I understand, the d6 site is still active and in use.
